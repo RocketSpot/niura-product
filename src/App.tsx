@@ -53,8 +53,8 @@ enum State {
 const BACKEND_BASE =
   import.meta?.env?.VITE_BACKEND_URL ||
   'https://niura-backend-adhd.vercel.app';
-const TTS_URL = `${BACKEND_BASE}/api/tts`;
-const VOICES_URL = `${BACKEND_BASE}/api/voices`;
+const TTS_URL = `http://niura-backend-adhd.vercel.app/api/tts`;
+const VOICES_URL = `http://niura-backend-adhd.vercel.app/api/voices`;
 
 const savedData = Storage.load();
 
